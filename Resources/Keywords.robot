@@ -9,8 +9,8 @@ Go to Web Page
 Load Page
     Go To                       ${URL}
 Verify Page Loaded
-    ${link_text} =              Get Text  id:nav-your-amazon
-    Should Be Equal             ${link_text}  Your Amazon.com
+    ${link_text} =              Get Text  id:title
+    Should Be Equal             ${link_text}  Infotiv Car Rental
 
 Search for Product
     [Arguments]                 ${search_term}  ${search_result}
@@ -30,13 +30,10 @@ Verify Search Completed
     Should Be Equal             ${result_text}    ${search_result}
 
 Choose item
-    click element
-    click link                  xpath://m.media-amazon.com/images/I/61FRjbOo2JL._AC_UL320_ML3_.jpg
-
-
-
-
-
-
-
+    Sleep  3s
+    Click Button                   xpath://button[@id="login"]
+    Input Text                      id:email  555@telia.com
+    Click Button                   xpath://button[@id="login"]
+    Should Be Equal                 ${elem}
 End Web Test
+    Close Browser
