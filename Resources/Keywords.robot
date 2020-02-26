@@ -37,3 +37,5 @@ Choose item
     Should Be Equal                 ${elem}
 End Web Test
     Close Browser
+
+Get Current Date
