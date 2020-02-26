@@ -35,5 +35,11 @@ Choose item
     Input Text                      id:email  555@telia.com
     Click Button                   xpath://button[@id="login"]
     Should Be Equal                 ${elem}
+Date selection
+
+
+
+
+
 End Web Test
     Close Browser

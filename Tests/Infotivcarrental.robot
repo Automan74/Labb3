@@ -20,5 +20,9 @@ User test negativ
     [Tags]                  Textbox tom
     Go to Web Page
     Choose item
+User test gherkin log in
+    [Documentation]     När användare och lösord är ifyllt så klickar
+    [Tags]                  Textbox tom
+    Go to Web Page
+    Date selection
 
-#testing testing
