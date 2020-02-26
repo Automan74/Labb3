@@ -43,3 +43,5 @@ Date selection
 
 End Web Test
     Close Browser
+
+Get Current Date
