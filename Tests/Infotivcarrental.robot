@@ -27,19 +27,14 @@ User test gherkin log in
     Go to Web Page
     Date selection
 
-<<<<<<< HEAD
+
 =======
 Start Date Selector
-    [Documentation]         Väljer startdatum, Gherkin-syntax i bifogad dokumentation xxx.doc
-    [Tags]                  StartDateSelector
+    [Documentation]         Väljer startdatum och slutdatum, Gherkin-syntax i bifogad dokumentation xxx.doc
+    [Tags]                  DateSelector
     Go to Web Page
     Input text              name:start  0202
     Sleep                   3s
-
-End Date Selector
-    [Documentation]         Väljer slutdatum
-    [Tags]                  EndDateSelector
-    Go to Web Page
     Input text              name:end  0202
     Sleep                   3s
->>>>>>> 45cd519acafc3ce70069a17137d9ba8f679c95cd
+
